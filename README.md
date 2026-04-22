@@ -93,7 +93,7 @@ npm start
 You should see:
 
 ```
-🎨 Vistora AI Backend running on http://localhost:5000
+🎨 Vistora AI Backend running on https://vistora-ai-1.onrender.com
    Uploads dir: .../backend/uploads
    Outputs dir: .../backend/outputs
 ```
@@ -101,7 +101,7 @@ You should see:
 Test it:
 
 ```bash
-curl http://localhost:5000/
+curl https://vistora-ai-1.onrender.com
 ```
 
 ### 2. Start the frontend (port 3000)
@@ -128,7 +128,7 @@ Then open **<http://localhost:3000>**.
 
 ## API reference
 
-Base URL: `http://localhost:5000`
+Base URL: `https://vistora-ai-1.onrender.com`
 
 ### `POST /api/upload`
 Multipart form-data, field name `files` (repeatable). Returns:
