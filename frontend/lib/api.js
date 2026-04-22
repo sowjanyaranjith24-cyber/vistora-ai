@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://vistora-ai.onrender.com';
+export const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://vistora-ai-1.onrender.com';
 
 export const api = axios.create({
   baseURL: API_URL,
